@@ -27,4 +27,4 @@ This is a simple (and therefore sufficiently secure) faucet for the testnet of t
 There is an onwer-privileged withdraw function, which allows the owner to withdraw an arbitrary amount from the faucet for emergencies or in migration scenarios.
 
 ### Deployment
-- Testnet: 0xbE4E352EA386Eb527167029EC5164960e47A2B1e
+- Testnet: 0x5E4edA21d9848CF5fc9242c7eE4956202544941e
