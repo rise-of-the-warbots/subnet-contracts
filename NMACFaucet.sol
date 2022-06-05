@@ -13,7 +13,7 @@ contract NMACFaucet is Ownable {
     }
     uint256 public amountAllowed = 10 * 10**18;
 
-	function donate() public payable {}
+    function donate() public payable {}
     function request(address payable _to) public payable {
 
         require(block.timestamp > lockTime[msg.sender], "Faucet: Lock time has not expired. Please try again later!");
