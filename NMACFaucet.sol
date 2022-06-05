@@ -13,6 +13,10 @@ contract NMACFaucet is Ownable {
     }
     uint256 public amountAllowed = 10 * 10**18;
 
+    function balance() public view returns (uint256) {
+        return address(this).balance;
+    }
+
     function donate() public payable {}
     function request(address payable _to) public payable {
 
