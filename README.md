@@ -1,5 +1,9 @@
-# WNMAC
+# Subnet contracts
 <img src="imgs/icon_nmac.png" width="100">
+
+This repository contains a collection of contracts, which are the core ecosystem of the NMAC EVM Subnet
+
+## WNMAC
 
 WNMAC or Wrapped NMAC is an [ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md) compatible wrapper contract around the NMAC token.
 
