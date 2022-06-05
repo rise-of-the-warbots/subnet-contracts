@@ -32,7 +32,7 @@ contract NMACFaucet is Ownable {
     function withdraw(uint256 _amount) public onlyOwner {
         address payable _to = payable(msg.sender);
 
-        require(address(this).balance > _amount, "Faucet: Amount to withdraw is too large!");
+        require(address(this).balance >= _amount, "Faucet: Amount to withdraw is too large!");
 
         _to.transfer(_amount);
     }
